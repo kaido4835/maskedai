@@ -4,6 +4,9 @@
 
 Educational project for **emotion recognition from the upper part of the face** (eyes and eyebrows), which is particularly relevant in the era of masks when the lower part of the face is hidden. The system automatically detects faces, extracts the upper region, and classifies emotions with **67.83% accuracy**.
 
+<img width="2555" height="1187" alt="image" src="https://github.com/user-attachments/assets/b92e3840-4adc-4f9f-a3b2-fba3574e33eb" />
+
+
 ### ✨ Key Features
 
 - 🎭 **5 emotion classes**: anger, happiness, neutral, sadness, surprise
@@ -73,7 +76,7 @@ The script will automatically download necessary models:
 - YOLOv8 face detection model
 - dlib facial landmarks model
 
-### 4. Prepare data (optional)
+### 4. Prepare data
 ```bash
 python Analysis.py
 ```
@@ -83,7 +86,7 @@ This script will:
 - Create a combined dataset
 - Generate visualizations
 
-### 5. Train models (optional)
+### 5. Train models
 ```bash
 python model.py
 ```
